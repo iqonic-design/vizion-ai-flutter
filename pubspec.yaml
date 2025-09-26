@@ -1,0 +1,140 @@
+name: vizion_ai
+description: Vizion AI - The Ultimate AI-Powered Content, Image and Code Creation Tool with Flutter.
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+version: 2.6.2+32
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  rxdart: ^0.28.0
+
+  #Commons
+  http: ^1.5.0
+  uuid: ^4.5.1
+  nb_utils: ^7.1.7+2
+  google_fonts: ^6.3.0
+  #html: ^0.15.5
+  intl: ^0.20.2
+  auto_size_text: ^3.0.0
+  cached_network_image: ^3.4.1
+  url_launcher: ^6.3.2
+  flutter_vector_icons: ^2.0.0
+  lottie: ^3.3.1
+  flutter_svg: ^2.2.0
+  flutter_svg_provider: ^1.0.7
+  stream_transform: ^2.1.1
+  flutter_local_notifications: ^19.4.1
+  slide_action: ^0.0.2
+  device_info_plus: ^11.5.0
+  carousel_slider: ^5.1.1
+  flutter_spinkit: ^5.2.2
+  rive: ^0.13.20
+  record: ^6.1.1
+  share_plus: ^11.1.0
+  speech_to_text: ^7.3.0
+  flutter_tts: ^4.2.3
+  flutter_html: ^3.0.0
+  group_button: ^5.3.4
+  flutter_markdown: ^0.7.7+1
+  syncfusion_flutter_pdf: ^30.2.7
+  path: ^1.9.1
+  path_provider: ^2.1.5
+
+  #Network
+  dio: ^5.9.0
+
+  #firebase
+  firebase_core: ^4.0.0
+  firebase_auth: ^6.0.1
+  firebase_crashlytics: ^5.0.0
+  firebase_messaging: ^16.0.0
+  firebase_remote_config: ^6.0.0
+  firebase_core_web: ^3.0.0
+
+  # SOCIAL LOGIN
+
+  the_apple_sign_in: ^1.1.1
+  google_sign_in: ^6.3.0
+  googleapis: ^13.2.0
+  googleapis_auth: ^1.6.0
+  extension_google_sign_in_as_googleapis_auth: ^2.0.13
+
+  # State Management
+  get: ^4.7.2
+
+  #Storage
+  get_storage: ^2.1.1
+
+  #PhotoViewGallery
+  photo_view: ^0.15.0
+  before_after: ^3.2.0
+
+  #Pickers
+  file_picker: ^10.3.2
+  image_picker: ^1.2.0
+  country_picker: ^2.0.27
+
+  # Google Map
+  google_maps_flutter: ^2.12.3
+  geolocator: ^14.0.2
+  geocoding: ^4.0.0
+
+  # Payment
+  purchases_flutter: ^9.2.1
+  flutter_stripe: ^12.0.2
+  razorpay_flutter: ^1.4.0
+  flutterwave_standard:
+    git:
+      url: https://github.com/iqonic-design/flutterwave_standard.git
+      ref: main
+  flutter_paypal_checkout:
+    git:
+      url: https://github.com/iqonic-design/flutter_paypal_checkout.git
+      ref: main
+
+  flutter_paystack:
+    git:
+      url: https://github.com/iqonic-design/flutter_paystack.git
+      ref: 1.5.0
+
+  midpay:
+    git:
+      url: https://github.com/iqonic-design/midpay.git
+      ref: main
+  cinetpay:
+    git:
+      url: https://github.com/iqonic-design/cinetpay.git
+      ref: main
+  # Google
+  google_mobile_ads: ^6.0.0
+
+  flutter_localizations:
+    sdk: flutter
+  playx_version_update: ^1.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+# The following section is specific to Flutter packages.
+flutter:
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/
+    - assets/flags/
+    - assets/images/
+    - assets/icons/
+    - assets/lottie/
+    - assets/icons/navigation/
+    - assets/rive/
+
+  fonts:
+    - family: Archia
+      fonts:
+        - asset: assets/fonts/Archia-Regular.otf
