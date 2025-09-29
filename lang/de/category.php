@@ -1,0 +1,27 @@
+<?php
+
+return [
+    'title' => 'Kategorien',
+    'singular_title' => 'Kategorie',
+    'aicode_title'=> 'Künstliche Intelligenz Code',
+    'lbl_feature_image' => 'Feature-Bild',
+    'lbl_parent_category' => 'Kategorie auswählen',
+    'lbl_category_name' => 'Unterkategorie-Name',
+    'lbl_status' => 'Status',
+    'lbl_name' => 'Name',
+    'lbl_category' => 'Kategorie',
+    'lbl_updated_at' => 'Aktualisiert am',
+    'lbl_created_at' => 'Erstellt am',
+    'lbl_image' => 'Bild',
+    'category_notfound' => 'Kategorie nicht gefunden',
+    'category_detail' => 'Kategoriedetails',
+    'subcategory_list' => 'Liste der Unterkategorien',
+    'category_list' => 'Kategorieliste',
+    'lbl_action'=>'Aktion',
+    'all' => 'Alle',
+    'all_categories' => 'Alle Kategorien',
+    'sub_category' => 'Unterkategorie',
+    'lbl_parent_brand' => 'Marke auswählen',
+    'lbl_type'=>'Typ',
+    'status_update' => 'Status aktualisieren',
+];

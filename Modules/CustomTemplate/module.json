@@ -1,0 +1,13 @@
+{
+    "name": "CustomTemplate",
+    "alias": "customtemplate",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\CustomTemplate\\Providers\\CustomTemplateServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

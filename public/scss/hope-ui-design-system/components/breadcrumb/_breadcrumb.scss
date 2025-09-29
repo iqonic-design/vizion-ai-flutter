@@ -1,0 +1,31 @@
+.breadcrumb-item{
+    >a{
+        color: var(--bs-body-color);
+
+        &:hover{
+            color: var(--bs-primary);
+        }
+    }
+    +.breadcrumb-item{
+        &::before{
+            content: '\e9fc';
+            font-family: 'Phosphor' !important;
+        }
+    }
+}
+
+.iq-banner {
+    .iq-navbar-header{
+        .iq-container{
+            .breadcrumb-item {
+                >a {
+                    color: var(--bs-body-color);
+
+                    &:hover{
+                        color: var(--bs-primary);
+                    }
+                }
+            }
+        }
+    }
+}

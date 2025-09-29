@@ -1,0 +1,25 @@
+/*!
+  * shared v9.13.1
+  * (c) 2024 kazuya kawaguchi
+  * Released under the MIT License.
+  */
+
+/*!
+  * vue-i18n v9.13.1
+  * (c) 2024 kazuya kawaguchi
+  * Released under the MIT License.
+  */
+
+/*!
+ * pinia v2.2.0
+ * (c) 2024 Eduardo San Martin Morote
+ * @license MIT
+ */
+
+/*! #__NO_SIDE_EFFECTS__ */
+
+/**
+* @vue/shared v3.4.35
+* (c) 2018-present Yuxi (Evan) You and Vue contributors
+* @license MIT
+**/

@@ -1,0 +1,60 @@
+.simple-table {
+  table {
+      tbody {
+          tr {
+              &:last-child {
+                  td {
+                      border-bottom-width: 0;
+                  }
+              }
+          }
+      }
+  }
+}
+
+table{
+    &.dataTable{
+        &.table-striped{
+            >tbody{
+                >tr{
+                    &.odd, 
+                    &:nth-child(odd){
+                        >*{
+                            box-shadow: unset;
+                        }
+                    }
+
+                    &.even,
+                    &:nth-child(even){
+                        >*{
+                            background-color: var(--bs-body-bg);
+                        }
+                    }
+                }
+            }
+
+            &.table-hover{
+                >tbody{
+                    >tr{
+                        &:hover{
+                            &.odd,
+                            &:nth-child(odd){
+                                box-shadow: inset 0 0 0 9999px rgba(var(--dt-row-hover), 0.075);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+@media (min-width: 991.98px){
+    table{
+        .description {
+            display: inline-block;
+            white-space: normal;
+        }
+    }
+}

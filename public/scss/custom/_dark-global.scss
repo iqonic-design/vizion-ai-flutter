@@ -1,0 +1,41 @@
+[data-bs-theme="dark"]{
+    .mode-icons{
+        &.light-mode{
+            display: none;
+        }
+
+        &.dark-mode{
+            display: block;
+        }
+    }
+
+    .sidebar-base{
+        .nav-item{
+            .nav-link{
+                &:not(.disabled){
+                    color: var(--bs-white);
+                }
+            }
+        }
+
+        &.sidebar-color{
+            .nav-item{
+                .nav-link{
+                    &.active{
+                        color: var(--bs-primary);
+                        
+                        .icon{
+                            color: var(--bs-primary);
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .footer{
+        &.glass{
+            background-color: rgba(var(--bs-gray-900-rgb), .1);
+        }
+    }
+}

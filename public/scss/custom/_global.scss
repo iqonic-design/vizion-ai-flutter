@@ -1,0 +1,43 @@
+// dark mode
+.mode-icons{
+    display: none;
+
+    &.light-mode{
+        display: block;
+    }
+}
+
+.card-icon-40 {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+
+    i{
+        line-height: inherit;
+    }
+}
+
+.ph{
+    line-height: inherit !important;
+}
+
+.multiselect{
+    background: transparent !important;
+    
+    .multiselect-search{
+        background: transparent !important;
+    }
+
+    .multiselect-dropdown{
+        background: var(--bs-gray-900);
+        border-color: var(--bs-border-color);
+    }
+}
+
+#popular-content {
+    .apexcharts-legend {
+        pointer-events: none;
+    }
+}

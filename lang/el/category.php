@@ -1,0 +1,27 @@
+<?php
+
+return [
+    'title' => 'Κατηγορίες',
+    'singular_title' => 'Κατηγορία',
+    'aicode_title'=> 'Τεχνητή Νοημοσύνη Κώδικας',
+    'lbl_feature_image' => 'Εικόνα Χαρακτηριστικού',
+    'lbl_parent_category' => 'Επιλέξτε Κατηγορία',
+    'lbl_category_name' => 'Όνομα Υπο-Κατηγορίας',
+    'lbl_status' => 'Κατάσταση',
+    'lbl_name' => 'Όνομα',
+    'lbl_category' => 'Κατηγορία',
+    'lbl_updated_at' => 'Ενημερώθηκε Στις',
+    'lbl_created_at' => 'Δημιουργήθηκε Στις',
+    'lbl_image' => 'Εικόνα',
+    'category_notfound' => 'Η κατηγορία δεν βρέθηκε',
+    'category_detail' => 'Λεπτομέρειες Κατηγορίας',
+    'subcategory_list' => 'Λίστα Υπο-Κατηγοριών',
+    'category_list' => 'Λίστα Κατηγοριών',
+    'lbl_action'=>'Δράση',
+    'all' => 'Όλα',
+    'all_categories' => 'Όλες οι Κατηγορίες',
+    'sub_category' => 'Υπο-Κατηγορία',
+    'lbl_parent_brand' => 'Επιλέξτε Μάρκα',
+    'lbl_type'=>'Τύπος',
+    'status_update' => 'Ενημέρωση κατάστασης',
+];

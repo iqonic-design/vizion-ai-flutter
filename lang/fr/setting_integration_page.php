@@ -1,0 +1,37 @@
+<?php
+
+return [
+    'lbl_mail' => 'Notification par e-mail',
+
+    'lbl_application' => "Liens de l'application de démonstration",
+    'lbl_playstore' => 'Lien PlayStore',
+    'lbl_appstore' => 'Lien AppStore',
+    'lbl_isforceupdate' => "Mise à jour forcée pour l'application Android",
+    'adndroid_minimum_version_code' => 'Code de version minimum pour Android',
+    'adndroid_latest_version_code' => 'Code de version le plus récent pour Android', 
+    'lbl_isforceupdate_employee' => "Mise à jour forcée pour l'application iOS", 
+    'ios_minimum_version_code' => 'Code de version minimum pour iOS',
+    'ios_latest_version_code' => 'Code de version le plus récent pour iOS', 
+    'lbl_enable_user_push_notification'=>'Notification push utilisateur',
+    'lbl_enable_chat_gpt' => 'ChatGPT',
+    'lbl_test_without_key' => 'Test sans clé',
+    'key' => 'Clé',
+    'lbl_notification'=>'Notification',
+    'lbl_firebase_notification'=>'Notification Firebase',
+    'lbl_firebase_key'=>'Clé Firebase',
+    'enable_ads' => 'Publicités',
+    'lbl_interstitial_ad_id' => "ID de l'annonce interstitielle",
+    'lbl_native_ad_id' => "ID de l'annonce native",
+    'lbl_banner_ad_id' => 'ID de la bannière publicitaire',
+    'lbl_open_ad_id' => "ID de l'annonce ouverte",
+    'lbl_rewarded_ad_id' => "ID de l'annonce récompensée",
+    'lbl_rewardinterstitial_ad_id' => "ID de l'annonce interstitielle récompensée",
+    'enable_picsart' => 'Picsart',
+    'lbl_picsart_key' => 'Clé Picsart',
+    'enable_cutoutpro' => 'CutoutPro',
+    'lbl_cutoutpro_key' => 'Clé Cutoutpro',
+    'enable_gemini' => 'Gemini',
+    'lbl_gemini_key' => 'Clé Gemini',
+    'enable_in_app_purchase' => 'Abonnement',
+    
+];

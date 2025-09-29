@@ -1,0 +1,94 @@
+.form-group{
+    margin-bottom: $spacer;
+    .input-group-text {
+        color: var(--#{$prefix}body-color);
+    }
+}
+
+.input-group-text {
+    color: var(--#{$prefix}body-color);
+}
+
+.form-control{
+    .vti__input{
+        background: transparent;
+    }
+}
+
+.vti__input {
+    background: transparent;
+}
+
+.input-group{
+    .input-group-text{
+        border-right: 0;
+    }
+
+    .form-control{
+        border-left: 0;
+        padding-left: 0;
+    }
+
+    &:focus-within{
+        .input-group-text{
+            border-color: var(--bs-primary);
+        }
+    }
+
+    &:has(.form-control-sm){
+        .input-group-text{
+            border-radius: var(--bs-border-radius-sm);
+        }
+    }
+
+    &:has(.form-control-lg) {
+        .input-group-text {
+            border-radius: var(--bs-border-radius-lg);
+        }
+    }
+}
+
+.form-group-alt{
+    &.input-group{
+        box-shadow: $box-shadow-sm;
+        border-radius: $border-radius-sm;
+        .input-group-text{
+            color: var(--#{$prefix}body-color);
+        }
+        > :not(:first-child):not(.dropdown-menu){
+            box-shadow: unset;
+            &.input-group-text {
+                border: 0;
+                padding-left: 0;
+            }
+        }
+        > :not(:last-child):not(.dropdown-menu){
+            box-shadow: unset;
+            padding-right: 0;
+            &.input-group-text {
+                border: 0;
+            }
+        }
+    }
+    .form-control {
+        border: 0;
+        box-shadow: $box-shadow-sm;
+    }
+}
+
+.form-select{
+    box-shadow: none;
+    &:focus{
+
+        box-shadow: none;
+    }
+}
+.form-control {
+    &[readonly]{
+        background-color: $input-bg;
+    }
+}
+
+.ql-container {
+    min-height: 10rem;
+}

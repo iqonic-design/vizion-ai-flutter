@@ -1,0 +1,39 @@
+.custom-table-effect{
+    .table{
+        tbody{
+            tr{
+                &:after{
+                    right: 0;
+                    border-top-left-radius: $border-radius;
+                    border-bottom-left-radius: $border-radius;
+                    border-top-right-radius: unset;
+                    border-bottom-right-radius: unset;
+                }   
+            }
+        }
+    }
+}
+
+table.dataTable {
+    > thead {
+        > tr {
+            > th {
+                &:not(.sorting_disabled) {
+                    padding-left: 1.875em;
+                    padding-right: 1em;
+                }
+                &.sorting_asc {
+                    padding-right: 1em;
+                }
+                &.sorting {
+                    &::before,
+                    &::after {
+                        right: auto;
+                        left: 10px;
+                    }
+                }
+                text-align: right;
+            }
+        }
+    }
+}
