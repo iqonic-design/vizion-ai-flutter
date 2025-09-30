@@ -107,14 +107,6 @@ Refer to the [Sanctum Documentation](https://laravel.com/docs/10.x/sanctum) for 
 
 ---
 
-## 📱 Flutter Frontend
-
-The Flutter frontend that consumes this backend is available here:
-
-🔗 [Vizion AI Mobile App Repository](https://github.com/your-username/vizion-ai-flutter) *(Replace with actual link)*
-
----
-
 ## 🧪 API Testing
 
 Use Postman or any API client to test the endpoints.
